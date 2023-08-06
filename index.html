@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickyRichard</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<header>
+    
+
+<div class="portfolio-container">
+<div class="portfolio-row header-wrap">
+<div class="brand-name">
+<a href="#" class="logo">SPJCS</a>
+</div>
+
+<div class="hamburger">
+
+    <i class="fa fa-bars"></i>
+</div>
+
+<div class="portfolio-navbar">
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="info.html">Updates</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+
+    </ul>
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+
+<section id="slide-carousel">
+    
+<div class="slider">
+<div class="portfolio-container">
+<div class="slider-content">
+    <div class="slider-general">
+
+<span class="welcome-msg">Welcome!</span>
+<div class="welcome-text">
+    <h1>
+        ST PATRICK JESUS CARES
+    </h1>
+<div class="text-wrap">
+    <h2 class="main-title main-titles"  data-text="SCHOOLS"> SCHOOLS</h2>
+    <h2 class="hover-title hover-titles"> SCHOOLS</h2>
+</div>
+<p>
+ Hey there, welcome to the offficial website of St. Patrick Jesus Cares Primary and Secondary School. Get all the latest updates, happenings and activities here! 
+<br>Download Academic Calender below.</p>
+<div class="download-resume">
+    <a href="spjcs.docx" target="_blank">Download AC</a>
+</div>
+
+
+</div>
+
+    </div>
+
+
+
+
+    <div class="slider-image">
+<div class="welcome-image">
+<img src="IMG_4001.JPG" alt="">
+
+</div>
+
+    </div>
+</div>
+
+
+</div>
+</div>
+
+</section>
+
+
+<section id="contact">
+    <div class="container reveal">
+    <div class="portfolio-container">
+        <div class="text-wrap">
+            <h2 class="main-title">Stay Connected</h2>
+            <h2 class="hover-title">Stay Conected</h2>
+        </div>
+        <div class="contact-info">
+            <span>
+                22, Benevolent Str. off Okhurobo Str. off Uwelu Road B/c.     
+            </span>
+            <h3>spjcs@gmail.com</h3>
+            <a href="#">+234 8118444073</a>
+            <a href="#">+234 8103667071</a>
+        </div>
+        <div class="social-link">
+            <ul>
+                <li>
+<a href="https://facebook.com/proile.php? id=100095249113735">Facebook</a>
+            </li>
+            <li>
+                <a href="https://chat.whatsapp.com/LOuetR705Ix8xV1F2batvt">Whatsapp</a>
+                            </li>
+                                <li>
+                                <a href="#">Instagram</a>
+                                            </li>
+                                            <li>
+                                            <a href="#">LinkedIn</a>
+                                        </li>
+        </ul>
+        </div>
+    </div>
+</div>
+</section>
+
+
+
+
+<!----------Menu javascript--------->
+
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    hamburger.addEventListener("click",function(){document.querySelector(".portfolio-navbar").classList.toggle("show") 
+    });
+</script>
+
+
+
+<!--------POP up javascript------------>
+<script type="text/javascript">
+    window.addEventListener('scroll', reveal);
+    
+    
+    
+    function reveal(){
+        var reveals = document.querySelectorAll('.reveal');
+    
+    
+    for(var i = 0; i < reveals.length; i++){
+    
+    
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top; 
+    var revealpoint = 150;
+    
+    if(revealtop < windowheight + revealpoint){
+    reveals[i].classList.add('active');
+    
+    }
+    else{
+        reveals[i].classList.remove('active'); 
+    }
+    
+    }
+    }
+    
+    
+    </script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
