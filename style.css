@@ -444,7 +444,10 @@ font-family: ;
     .slider-content{
         margin:0 -15px;
         padding: 0 30px;
-    }
+    }   
+.slider-image .welcome-image{
+    width: 44vh;
+}
     .slider-image{
         width: 100%;
         order: 1;
