@@ -457,7 +457,10 @@ font-family: ;
         width: 100%;
         order: 2;
     }
-
+    }
+    .social-link ul li a{
+        font-size: 14px;     
+    }
 }
 
 
